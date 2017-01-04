@@ -5,7 +5,7 @@ License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 */
 h1,h2,h3,h4,h5,h6{
-	margin:0;	
+	margin:0;
 	font-family: 'Francois One', sans-serif;
 }
 ul, ol {margin: 0;}
@@ -105,7 +105,7 @@ a:focus, a:active, a:hover {
     z-index: 999;
     background: #3E9CCA;
 	background-image: url(../images/basketball-background-25.png);
-}	
+}
 .left-side-collapsed .sticky-left-side {
     overflow-y: visible;
 }
@@ -253,7 +253,7 @@ div#page-wrapper {
 }
 
 .custom-nav > li.nav-active > a:hover {
-    
+
 }
 
 .custom-nav > li.active > a,
@@ -404,7 +404,7 @@ h5.left-nav-title {
     text-align: center;
     padding: 7px;
     position: relative;
-	
+
 }
 
 .left-side-collapsed .custom-nav > li.menu-list > a {
@@ -529,7 +529,7 @@ ul.nav li a span {
     content: '';
 }
 .move-button{
-	
+
 }
 .toggle-btn {
     font-size: 15px;
@@ -625,7 +625,7 @@ ul.nav li a span {
     padding: .5em 2em;
     color: #FFF;
 }
-#loginButton {  
+#loginButton {
     position:relative;
     z-index:30;
     cursor:pointer;
@@ -670,7 +670,7 @@ fieldset#body {
     float:left;
     padding:0;
     border:0;
-    *margin:-3px 9px 0 0; 
+    *margin:-3px 9px 0 0;
 }
 #body label {
     color:#87807c;
@@ -860,18 +860,18 @@ input:focus {
 
 
 
-#Date { 
+#Date {
     font-size: .875em;
     text-align: center;
     color: #111111;
  }
 
-.clock ul { 
+.clock ul {
     padding: 0;
     margin: .2em 0 0 0;
     text-align: center;
 }
-.clock ul li { 
+.clock ul li {
     display: inline;
     font-size: 1em;
     text-align: center;
@@ -886,19 +886,19 @@ input:focus {
     padding-right: 2px;
  }
 
-@-webkit-keyframes mymove 
+@-webkit-keyframes mymove
 {
 0% {opacity:1.0; text-shadow:0 0 20px #00c6ff;}
 50% {opacity:0; text-shadow:none; }
-100% {opacity:1.0; text-shadow:0 0 20px #00c6ff; }	
+100% {opacity:1.0; text-shadow:0 0 20px #00c6ff; }
 }
 
 
-@-moz-keyframes mymove 
+@-moz-keyframes mymove
 {
 0% {opacity:1.0; text-shadow:0 0 20px #00c6ff;}
 50% {opacity:0; text-shadow:none; }
-100% {opacity:1.0; text-shadow:0 0 20px #00c6ff; }	
+100% {opacity:1.0; text-shadow:0 0 20px #00c6ff; }
 }
 /*-----------------------------
         MAIN CONTENT
@@ -1275,7 +1275,7 @@ video {
 .top-news{
     box-shadow: 0 -1px 3px rgba(0,0,0,.12),0 1px 2px rgba(0,0,0,.24);
 	background:#FFF;
-	padding:1em;	
+	padding:1em;
 }
 .top-news-heading h3 {
     font-size: 1.5em;
@@ -1491,6 +1491,9 @@ h2.resp-accordion {
     box-shadow: 0 -1px 3px rgba(0,0,0,.12),0 1px 2px rgba(0,0,0,.24);
     margin: 0 0 1em 0;
 }
+.today-match img {
+	width: 100%;
+}
 .today-match-heading h2{
     font-size: 1.5em;
     margin: 0 0 1em 0;
@@ -1531,7 +1534,7 @@ h2.resp-accordion {
 .ranking-heading h3{
 	font-size: 1.5em;
     margin: 0 0 1em 0;
-    color: #F44336;	
+    color: #F44336;
 }
 th.th-rank {
 	color: #B7B7B7;
@@ -1653,7 +1656,7 @@ footer {
     font-size: .875em;
 }
 .copyright p a{
-	color:#F44336;	
+	color:#F44336;
 }
 .social{
 	text-align:center;
@@ -1693,7 +1696,7 @@ footer {
     width: 30px;
     background: #FFF;
     line-height: 30px;
-    border: solid 1px #FFFFFF;	
+    border: solid 1px #FFFFFF;
 }
 .social ul li a i.fa.fa-twitter:hover{
     height: 30px;
@@ -1705,45 +1708,45 @@ footer {
 	-webkit-transition:0.5s all;
 	-moz-transition:0.5s all;
 	-o-transition:0.5s all;
-	-ms-transition:0.5s all;	
+	-ms-transition:0.5s all;
 }
 .social ul li a i.fa.fa-rss{
     height: 30px;
     width: 30px;
     background: #FFF;
     line-height: 30px;
-    border: solid 1px #FFFFFF;	
+    border: solid 1px #FFFFFF;
 }
 .social ul li a i.fa.fa-rss:hover{
     height: 30px;
     width: 30px;
     line-height: 30px;
     color: #F44336;
-    border: solid 1px #F44336;	
+    border: solid 1px #F44336;
 	transition:0.5s all;
 	-webkit-transition:0.5s all;
 	-moz-transition:0.5s all;
 	-o-transition:0.5s all;
-	-ms-transition:0.5s all;	
+	-ms-transition:0.5s all;
 }
 .social ul li a i.fa.fa-vk{
     height: 30px;
     width: 30px;
     background: #FFF;
     line-height: 30px;
-    border: solid 1px #FFFFFF;	
+    border: solid 1px #FFFFFF;
 }
 .social ul li a i.fa.fa-vk:hover{
     height: 30px;
     width: 30px;
     line-height: 30px;
     color: #F44336;
-    border: solid 1px #F44336;		
+    border: solid 1px #F44336;
 	transition:0.5s all;
 	-webkit-transition:0.5s all;
 	-moz-transition:0.5s all;
 	-o-transition:0.5s all;
-	-ms-transition:0.5s all;	
+	-ms-transition:0.5s all;
 }
 /*-- //footer --*/
 /*-- basketball --*/
@@ -1795,7 +1798,7 @@ footer {
 /*-- //basketball --*/
 /*-- club --*/
 .club{
-	
+
 }
 .club-heading h2{
     font-size: 2.5em;
@@ -2044,7 +2047,7 @@ ul.social-slide li i.mac{
     background: #FFFFFF;
     height: 12px;
     width: 12px;
-}	
+}
 ul.callbacks_tabs.callbacks2_tabs {
     top: 73%;
     left: 46%;
@@ -2158,7 +2161,7 @@ tr.match-b-color{
 }
 .news-bottom ul{
     padding: 0;
-    margin: 1em 0 0 0;	
+    margin: 1em 0 0 0;
 }
 .news-bottom ul li{
     margin: 0 0 .5em 0;
@@ -2179,7 +2182,7 @@ tr.match-b-color{
 .club-players-left{
     box-shadow: 0 -1px 3px rgba(0,0,0,.12),0 1px 2px rgba(0,0,0,.24);
     padding: 1em;
-    background: #FFF;	
+    background: #FFF;
 }
 .club-players-left-heading h3{
 	font-size: 1.5em;
@@ -2187,7 +2190,7 @@ tr.match-b-color{
     color: #F44336;
 }
 .club-players-left th{
-	padding: 0 0 1em 0!important;	
+	padding: 0 0 1em 0!important;
 }
 th.p-name {
     font-size: .875em;
@@ -2336,7 +2339,7 @@ td.country.c-rank {
 }
 
 #video img,
-#video iframe{    
+#video iframe{
 	display: block;
     width: 100%;
 }
@@ -2686,7 +2689,7 @@ button.btn1.btn-1.btn-1b:hover {
 }
 /*-- testimonial --*/
 .testimonial{
-	
+
 }
 .testimonial-heading h3{
 	font-size: 1.5em;
@@ -2738,7 +2741,7 @@ blockquote > p {
     border: solid 5px #ddd;
 }
 .avatar img{
-	
+
 }
 .testimonial-bottom{
 	margin:2em 0;
@@ -2853,13 +2856,13 @@ blockquote > p {
 .opinion{
 	background: #FFF;
     padding: 1em;
-	box-shadow: 0 -1px 3px rgba(0,0,0,.12),0 1px 2px rgba(0,0,0,.24);	
+	box-shadow: 0 -1px 3px rgba(0,0,0,.12),0 1px 2px rgba(0,0,0,.24);
 	margin:1em 0 0 0;
 }
 .opinion h3{
 	font-size: 1.5em;
     margin: 0 0 1em 0;
-    color: #F44336;	
+    color: #F44336;
 }
 .opinion form input[type="text"] {
     width: 100%;
@@ -2952,22 +2955,22 @@ blockquote > p {
 .v-more-video-grids{
     box-shadow: 0 -1px 3px rgba(0,0,0,.12),0 1px 2px rgba(0,0,0,.24);
     background: #FFF;
-    padding: 1em;	
+    padding: 1em;
 }
 .v-more-video-grids-heading h3{
 	font-size: 1.5em;
     margin: 0 0 1em 0;
-    color: #F44336;	
+    color: #F44336;
 }
 .v-more-grid{
     box-shadow: 0 -1px 3px rgba(0,0,0,.12),0 1px 2px rgba(0,0,0,.24);
     background: #FFF;
     padding: 0;
-    width: 23.9%;	
+    width: 23.9%;
 }
 .v-more-grid-img iframe{
     width: 100%;
-    height: 134px;	
+    height: 134px;
 }
 .v-more-grid:nth-child(2) {
     margin: 0 0 0 1em;
@@ -3073,7 +3076,7 @@ blockquote > p {
 	.rugby-t-grid {
 		margin: 1.9em 0 0 0 !important;
 	}
-	
+
 }
 @media (max-width:1280px){
 	.top-logo {
@@ -3282,7 +3285,7 @@ blockquote > p {
 	.top-grid-left-info {
 		width: 50%;
 		float: left;
-	}	
+	}
 	video {
 		height: 487px !important;
 	}
@@ -4039,7 +4042,7 @@ blockquote > p {
 	}
 	.four-grid:nth-child(3) {
 		margin: 1em 0;
-	}	
+	}
 	.four-grid:nth-child(5) {
 	    margin: 1em 0 0 0;
 	}
