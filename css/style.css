@@ -109,6 +109,7 @@ a:focus, a:active, a:hover {
     overflow-y: auto;
     z-index: 999;
     background: #3E9CCA;
+
 	background-image: url(../images/basketball-background-25.png);
 }
 .left-side-collapsed .sticky-left-side {
@@ -913,7 +914,8 @@ input:focus {
 }
 .main-content {
     margin-left: 200px;
-    background: #ECFFFF;
+  /*  background: #ECFFFF;*/
+		background:#f4813e;
     min-height: 1000px;
 }
 .main-content2{
