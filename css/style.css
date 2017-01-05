@@ -17,7 +17,8 @@ html, body{
 	font-family: 'Nunito', sans-serif;
     font-size: 100%;
   	overflow-x: hidden;
-	background: #f9f9f9;
+	/*background: #f9f9f9;*/
+	background: #e86417;
 }
 body a{
 	transition:0.5s all;
@@ -33,6 +34,7 @@ a:focus, a:active, a:hover {
     -moz-transition: all 0.3s;
     transition: all 0.3s;
     color: #353F4F;
+
 	text-decoration:none;
 }
 .icons {
@@ -63,6 +65,7 @@ a:focus, a:active, a:hover {
 .meters_list{
 	border: 1px solid #F0F0F0;
 	background: #65cea7;
+
 	color:#FFF;
 	border-radius: 4px;
 	-webkit-border-radius: 4px;
