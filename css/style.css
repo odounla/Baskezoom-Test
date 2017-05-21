@@ -179,7 +179,7 @@ a:focus, a:active, a:hover {
 }
 div#page-wrapper {
     padding: 1em 1em 1em;
-	margin-top:2.5em;
+	margin-top:3.5em;
 }
 .left-side-collapsed .logo-icon {
     height: 51px;
@@ -1086,7 +1086,7 @@ video {
     float: left;
 }
 .three-grid:nth-child(2){
-	margin:0 1em;
+	margin:0 0.9em;
 }
 .three-grid-img a img{
 	width:100%;
