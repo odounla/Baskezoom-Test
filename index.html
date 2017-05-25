@@ -21,6 +21,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- Graph CSS -->
 <link href="css/font-awesome.css" rel="stylesheet">
 <!-- jQuery -->
+<!--Example Table Json-->
+ <link href="css/examplecss.css" rel='stylesheet' type='text/css' />
+ <link rel="stylesheet" href="css/tabulator.css">
 <!-- lined-icons -->
 <link rel="stylesheet" href="css/icon-font.min.css" type='text/css' />
 <!-- //lined-icons -->
@@ -363,197 +366,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<h3>Top 10 Players</h3>
 								</div>
 								<div class="ranking-grids">
-									<table>
-										<thead>
-											<th class="th-rank">
-												Rank
-											</th>
-											<th class="th-country">
-												Name
-											</th>
-											<th class="th-t-points">
-												Position
-											</th>
-											<th class="th-p-points">
-												Club
-											</th>
-											<th class="th-p-points">
-												Nationality
-											</th>
-										</thead>
-										<tbody>
-											<tr class="b-color">
-												<td class="rank">
-													1.
-												</td>
-												<td class="country">
-													<a href="club.html">Lionel Messi</a>
-												</td>
-												<td class="t-points">
-													Forward
-												</td>
-												<td class="t-points p-points">
-													<a href="club.html">Barcelona</a>
-												</td>
-												<td class="t-points p-points">
-													Argentina
-												</td>
-											</tr>
-											<tr class="bg-color">
-												<td class="rank">
-													2.
-												</td>
-												<td class="country">
-													<a href="club.html">Cristiano Ronaldo</a>
-												</td>
-												<td class="t-points">
-													Forward
-												</td>
-												<td class="t-points p-points">
-													<a href="club.html">Real Madrid</a>
-												</td>
-												<td class="t-points p-points">
-													Portugal
-												</td>
-											</tr>
-											<tr class="b-color">
-												<td class="rank">
-													3.
-												</td>
-												<td class="country">
-													<a href="club.html">Xavi</a>
-												</td>
-												<td class="t-points">
-													Midfielder
-												</td>
-												<td class="t-points p-points">
-													<a href="club.html">Barcelona</a>
-												</td>
-												<td class="t-points p-points">
-													Spain
-												</td>
-											</tr>
-											<tr class="bg-color">
-												<td class="rank">
-													4.
-												</td>
-												<td class="country">
-													<a href="club.html">Andres Iniesta</a>
-												</td>
-												<td class="t-points">
-													Midfielder
-												</td>
-												<td class="t-points p-points">
-													<a href="club.html">Barcelona</a>
-												</td>
-												<td class="t-points p-points">
-													Spain
-												</td>
-											</tr>
-											<tr class="b-color">
-												<td class="rank">
-													5.
-												</td>
-												<td class="country">
-													<a href="club.html">Ibrahimovic</a>
-												</td>
-												<td class="t-points">
-													Forward
-												</td>
-												<td class="t-points p-points">
-													<a href="club.html">PSG</a>
-												</td>
-												<td class="t-points p-points">
-													Sweden
-												</td>
-											</tr>
-											<tr class="bg-color">
-												<td class="rank">
-													6.
-												</td>
-												<td class="country">
-													<a href="club.html">Radamel Falcao</a>
-												</td>
-												<td class="t-points">
-													Forward
-												</td>
-												<td class="t-points p-points">
-													<a href="club.html">Atletico Madrid</a>
-												</td>
-												<td class="t-points p-points">
-													Colombia
-												</td>
-											</tr>
-											<tr class="b-color">
-												<td class="rank">
-													7.
-												</td>
-												<td class="country">
-													<a href="club.html">Robin van Persie</a>
-												</td>
-												<td class="t-points">
-													Forward
-												</td>
-												<td class="t-points p-points">
-													<a href="club.html">Man Utd</a>
-												</td>
-												<td class="t-points p-points">
-													Netherlands
-												</td>
-											</tr>
-											<tr class="bg-color">
-												<td class="rank">
-													8.
-												</td>
-												<td class="country">
-													<a href="club.html">Andrea Pirlo</a>
-												</td>
-												<td class="t-points">
-													Midfielder
-												</td>
-												<td class="t-points p-points">
-													<a href="club.html">Juventus</a>
-												</td>
-												<td class="t-points p-points">
-													Italy
-												</td>
-											</tr>
-											<tr class="b-color">
-												<td class="rank">
-													9.
-												</td>
-												<td class="country">
-													<a href="club.html">Yaya Toure</a>
-												</td>
-												<td class="t-points">
-													Midfielder
-												</td>
-												<td class="t-points p-points">
-													<a href="club.html">Man City</a>
-												</td>
-												<td class="t-points p-points">
-													Ivory Coast
-												</td>
-											</tr>
-											<tr class="bg-color">
-												<td class="rank">
-													10.
-												</td>
-												<td class="country">
-													<a href="club.html">Edinson Cavani</a>
-												</td>
-												<td class="t-points">
-													Forward
-												</td>
-												<td class="t-points p-points">
-													<a href="club.html">Napoli</a>
-												</td>
-												<td class="t-points p-points">
-													Uruguay
-												</td>
-											</tr>
-										</tbody>
-									</table>
+									<div id="example-table"></div>
 								</div>
 							</div>
 							<!-- //player-rank -->
@@ -1938,6 +1751,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
       <!-- main content end-->
 	</section>
+	<!--Json Table script-->
+	 <script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+    <script   src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"   integrity="sha256-eGE6blurk5sHj+rmkfsGYeKyZx3M4bG+ZlFyA7Kns7E="   crossorigin="anonymous"></script>
+	 <script type="text/javascript" src="js/tabulator.js"></script>
+	 <script src="js/examplejs.js"></script>	
+	<!--Json Table script-->
 	<script src="js/modernizr.custom.js"></script>
 	<!--pop-up-->
 	<script src="js/menu_jquery.js"></script>
